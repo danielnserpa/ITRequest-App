@@ -270,7 +270,7 @@ public class ITRequestApp {
 					if (minPriority == 1 || minPriority == 2 || minPriority == 3) { // If there's any request, the message below
 																																					// will be shown.
 						JOptionPane.showMessageDialog(null, "The lowest priority request is: " +
-						"\n" + description[detailsMinPriority]);
+								"\n" + description[detailsMinPriority]);
 					} else {
 						JOptionPane.showMessageDialog(null, "No priorities have been entered yet.");
 					}
